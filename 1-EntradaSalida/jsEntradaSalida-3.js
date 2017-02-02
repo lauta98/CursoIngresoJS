@@ -1,9 +1,10 @@
 /*Debemos lograr tomar un dato por 'ID'
 y luego mostrarlo por 'Alert' al presionar el botón  'MOSTRAR'*/
 function Mostar()
-{
-	var valor=
-	<input type="text"  placeholder="Su nombre" id="elNombre">
+{//Copiar elNombre- document.g(tab)+shift.I
+	var nombre;
+	nombre=document.getElementById('elNombre').value;
+	alert("El nombre ingresado es:" + nombre);
 }
 
 
