@@ -4,6 +4,6 @@
 */
 function Mostar()
 {
-	
+	alert ("esto es una alerta");
 }
 
