@@ -4,6 +4,8 @@
 */
 function Mostar()
 {
-	alert ("esto es una alerta");
+	var nombre=promt("mi nombre")
+	document.getElementById('elNombre').value="Mi nombre";
+
 }
 
