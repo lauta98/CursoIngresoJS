@@ -1,7 +1,7 @@
 //Debemos lograr mostrar un mensaje al presionar el botón  'MOSTRAR'.
-function Mostar(msj)
+function Mostar()
 {
-	var msj="Esto funciona de maravilla";
+	msj="Esto funciona de maravilla";
 	alert(msj);
 }
 

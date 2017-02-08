@@ -3,29 +3,24 @@ transformarlos a enteros (parseInt) y Sumarlos.
 Mostar el resulto por medio de "ALERT"*/
 function sumar()
 {
-	var numeroUno;
-	var numeroDos;
-	var suma;
-	// mal lugar numeroDos= parseInt(numeroDos);
-/* horrible
-	document.getElementById('elnumeroUno').value;="Me llamo jose"
-	
-	document.getElementById('lanumeroDos').value="Tiene 66 años";
-	*/
-	numeroUno=document.getElementById('numeroUno').value;
-	numeroDos=document.getElementById('numeroDos').value;
-	/*
-	numeroDos= parseInt(numeroDos);
-	numeroUno= parseInt(numeroUno);
+	var num1;
+	var num2;
 
-	suma= numeroUno+numeroDos;
-	*/
-	/*
-	suma= parseInt(numeroUno)+ parseInt(numeroDos);
-	alert( suma );
-	*/
+	num1=document.getElementById('numeroUno').value;
 
-	alert(parseInt(numeroUno)+ parseInt(numeroDos));
+	num2=document.getElementById('numeroDos').value;
+
+	num1=parseInt(num1);
+
+	num2=parseInt(num2);
+
+	var resultado;
+
+	resultado=parseInt(num1+num2);
+
+	alert("la suma es "+resultado);
 
 }
+
+
 

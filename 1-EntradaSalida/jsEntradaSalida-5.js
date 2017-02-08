@@ -4,15 +4,11 @@ function Mostar()
 {	
 	var nombre;
 	var edad;
-/* horrible
-	document.getElementById('elNombre').value;="Me llamo jose"
-	
-	document.getElementById('laEdad').value="Tiene 66 años";
-	*/
-	nombre=document.getElementById('elNombre').value;
-	edad=document.getElementById('laEdad').value;
 
-	alert("Usted se llama "+nombre+" y tiene "+edad+"  años");
+	nombre= document.getElementById('elNombre').value;
+	edad= document.getElementById('laEdad').value;
+
+	alert("Usted se llama "+nombre+ " y tiene"+edad+ " años");
 
 
 }

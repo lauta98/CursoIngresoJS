@@ -4,7 +4,5 @@ function Mostar()
 {//Copiar elNombre- document.g(tab)+shift.I
 	var nombre;
 	nombre=document.getElementById('elNombre').value;
-	alert("El nombre ingresado es:" + nombre);
+	alert("Su nombre es" +nombre);
 }
-
-
